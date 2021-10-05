@@ -2,14 +2,14 @@
 
 # Created by: Igor
 # Created on: Oct 2021
-# This is game
+# This is math_program
 
 
 def main():
-    #input
+    # input
     integer1 = input("How many number are you going to add: ")
     answer = 0
-    
+
     # process & output
     try:
         number_of_numbers = int(integer1)
@@ -27,10 +27,9 @@ def main():
                 except Exception:
                     print("This was not a number")
         print("Sum of just the positive number is ={0}".format(answer))
-                        
-        
+
     except Exception:
-            print("This was not a number")
+        print("This was not a number")
     finally:
         print("")
         print("Done.")
