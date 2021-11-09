@@ -26,7 +26,7 @@ def main():
                         answer = answer + number
                 except Exception:
                     print("This was not a number")
-        print("Sum of just the positive number is ={0}".format(answer))
+        print("Sum of just the positive number is = {0}".format(answer))
 
     except Exception:
         print("This was not a number")
